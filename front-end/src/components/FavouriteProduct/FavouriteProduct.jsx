@@ -12,7 +12,7 @@ export function FavouriteProduct({ favourite }) {
 
   const price = <Price product={product} />;
 
-  const [addProductToCart] = useContext(CartContext);
+  const [, addProductToCart] = useContext(CartContext);
 
   return (
     <div className={styles.favouriteProduct}>
