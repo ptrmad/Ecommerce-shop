@@ -7,7 +7,7 @@ import { CartContext } from "../../contexts/CartContext";
 export function CartProduct({ product }) {
   const price = <Price product={product} />;
 
-  const [one, two, handleRemoveProduct] = useContext(CartContext);
+  const [, , handleRemoveProduct] = useContext(CartContext);
   return (
     <div className={styles.favouriteProduct}>
       <img src={product.photos[0]} />
