@@ -1,0 +1,9 @@
+.logo {
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+
+.logo:hover {
+  transform: scale(105%);
+}
