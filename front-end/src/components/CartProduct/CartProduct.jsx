@@ -2,6 +2,7 @@ import styles from "./CartProduct.module.css";
 import REMOVE_ICON from "../../assets/remove.svg";
 import { Price } from "../Price/Price";
 import { useContext } from "react";
+
 import { CartContext } from "../../contexts/CartContext";
 
 export function CartProduct({ product }) {
