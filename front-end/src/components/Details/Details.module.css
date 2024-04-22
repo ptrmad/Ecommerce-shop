@@ -1,27 +1,45 @@
 .details {
-    width: 100%;
-    padding-right: 1rem;
+  width: 100%;
+  padding-right: 1rem;
 }
 
 .productName {
-    margin: 0.5rem 0;
-    font-weight: 700;
+  margin: 0.5rem 0;
+  font-weight: 700;
 }
 
 .price {
-    color: var(--color-price);
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+  color: var(--color-price);
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .extraInfo {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .extraInfo li {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 1rem;
-    margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  width: 50%;
+}
+
+.extraInfo li p {
+  font-size: 1rem;
+  padding: 0 1.5rem;
+}
+
+.share {
+  width: 100%;
+  display: flex;
+  background-color: var(--color-white);
+  border: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shareTest {
+  border: 1px solid black;
 }
