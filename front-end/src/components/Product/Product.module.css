@@ -1,38 +1,39 @@
 .product {
-    position: relative;
+  position: relative;
 }
 
 .product button {
-    border: none;
+  border: none;
 }
 
 .product img {
-    width: 250px;
-    height: 400px;
+  width: 250px;
+  height: 400px;
+  box-shadow: 0 0 5px var(--color-theme-main);
 }
 
 .product h3 {
-    font-weight: 700;
-    margin: 0.5rem 0;
+  font-weight: 700;
+  margin: 0.5rem 0;
 }
 
 .product p {
-    color: var(--color-price);
-    margin-bottom: 1rem;
+  color: var(--color-price);
+  margin-bottom: 1rem;
 }
 
 .heart {
-    position: absolute;
-    top: 0.5rem;
-    left: 0.5rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
 
-    width: 1.5rem;
-    height: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
 
-    background-image: url("../../assets/heart.svg");
-    background-repeat: none;
+  background-image: url("../../assets/heart.svg");
+  background-repeat: none;
 }
 
 .heart:hover {
-    background-image: url("../../assets/heart-full.svg");
+  background-image: url("../../assets/heart-full.svg");
 }
