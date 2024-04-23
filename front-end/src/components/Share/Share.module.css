@@ -1,23 +1,42 @@
 .sharePage {
+  position: absolute;
   display: flex;
-  width: 100vh;
-  height: 100vh;
+  min-width: 100%;
+  min-height: 100%;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-text-default);
-  opacity: 50%;
   z-index: 998;
 }
 
+.shareTransparentBackground {
+  position: absolute;
+  display: flex;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: var(--color-text-default);
+  opacity: 75%;
+  z-index: 998;
+  padding-bottom: 75%;
+}
+
 .shareField {
-  width: 33%;
-  height: 20vh;
+  position: absolute;
+  min-width: 33vw;
+  min-height: 20vh;
+  padding: 5% 7.5%;
   flex-direction: column;
-  gap: 3vh;
   background-color: var(--color-white);
   z-index: 999;
 }
 
-.shareField button {
-  border-radius: 20%;
+.closeWindow {
+  position: absolute;
+  top: 2vh;
+  right: 2vh;
+  background: none;
+  border: none;
+}
+
+.buttonSection button {
+  margin: 3vh 0;
 }

@@ -5,12 +5,13 @@ import CAR_ICON from "../../assets/car.svg";
 import RETURN_ICON from "../../assets/return.svg";
 import { FullWidthButton } from "../FullWidthButton/FullWidthButton";
 import { Accordion } from "../Accordion/Accordion";
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { CartContext } from "../../contexts/CartContext";
+import { ShareContext } from "../../contexts/ShareContext";
 
 export function Details({ product }) {
   const [, addProductToCart] = useContext(CartContext);
-  const [isShareShown, setIsShareShown] = useState(false);
+  const [isShareShown, setIsShareShown] = useContext(ShareContext);
 
   const accordionContent = [
     {

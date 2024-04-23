@@ -11,6 +11,10 @@ import { CurrencyContext } from "../../contexts/CurrencyContext";
 import { CURRENCIES } from "../../constants/currencies";
 import { CartContext } from "../../contexts/CartContext";
 import { useLocalStorage } from "../../hooks/useLocalStorage";
+import { ShareContext } from "../../contexts/ShareContext";
+import { useState } from "react";
+import { Share } from "../Share/Share";
+// import { Share } from "../Share/Share";
 
 export function Layout() {
   const [currency, setCurrency] = useLocalStorage(
@@ -19,6 +23,8 @@ export function Layout() {
   );
 
   const [cartItems, setCartItems] = useLocalStorage("cart_products", []);
+
+  const [isShareShown, setIsShareShown] = useState(false);
 
   function addProductToCart(product) {
     const newState = [...cartItems, product];
@@ -50,7 +56,10 @@ export function Layout() {
               </div>
             </TopBar>
             <CategoryMenu />
-            <Outlet />
+            <ShareContext.Provider value={[isShareShown, setIsShareShown]}>
+              {isShareShown ? <Share /> : null}
+              <Outlet />
+            </ShareContext.Provider>
           </MainContent>
           <Footer />
         </CurrencyContext.Provider>
