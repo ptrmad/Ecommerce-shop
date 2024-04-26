@@ -40,6 +40,10 @@
   justify-content: space-between;
 }
 
+.share img {
+  max-width: 30px;
+}
+
 .shareTest {
   border: 1px solid black;
 }

@@ -1,6 +1,6 @@
 import styles from "./Details.module.css";
 
-import SHARE_ICON from "../../assets/Share.png";
+import SHARE_ICON from "../../assets/Share.svg";
 import CAR_ICON from "../../assets/car.svg";
 import RETURN_ICON from "../../assets/return.svg";
 import { FullWidthButton } from "../FullWidthButton/FullWidthButton";

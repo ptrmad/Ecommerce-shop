@@ -34,6 +34,22 @@
   background-repeat: none;
 }
 
+.share {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+
+  width: 1.5rem;
+  height: 1.5rem;
+  background: none;
+}
+
+.share img {
+  max-width: 1.5rem;
+  max-height: 1.5rem;
+  box-shadow: none;
+}
+
 .heart:hover {
   background-image: url("../../assets/heart-full.svg");
 }
