@@ -56,15 +56,14 @@ You'll need Node.js and npm (Node Package Manager) installed on your system. You
    git clone [https://github.com/ptrmad/EcommerceShop.git](https://github.com/ptrmad/EcommerceShop.git)
    ```
 
-`````
-
 2. Install NPM packages
-   ````sh
-   npm install
-`````
 
-````
+   ```sh
+   npm install
+   ```
+
 3. Install react
+
 ```sh
 npm install react@beta react-dom@beta
 ```
@@ -151,6 +150,7 @@ You'll need Node.js and npm (Node Package Manager) installed on your system. You
     Install NPM packages
 
     sh
+   ```
 
 npm install
 
@@ -189,4 +189,7 @@ Users can add items to their cart and now also have the ability to delete items.
 Example 2: Sharing Products on Social Media
 
 With the new social media integration, you can easily share your favorite products with friends and family on various platforms. This helps spread the word about products you love.
-````
+
+```
+
+```
