@@ -97,3 +97,7 @@ Users can add items to their cart and now also have the ability to delete items.
 Example 2: Sharing Products on Social Media
 
 With the new social media integration, you can easily share your favorite products with friends and family on various platforms. This helps spread the word about products you love.
+
+Example 3: Changing currencies
+
+Page has built-in feature helping to change currencies from USD to PLN and other way around. This way user can see the prices in whichefer currency preferred.
