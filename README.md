@@ -1,27 +1,20 @@
 <br />
-<div align="center">
-  <a href="https://github.com/ptrmad/EcommerceShop">
-    <img src="images/shop-logo.svg" alt="Logo" width="80" height="80">
-  </a>
-</div>
 
-<h3 align="center">EcommerceShop - Your Ultimate Online Shopping Experience</h3>
+<h3 align="center">E-commerce shop page</h3>
 
 <p align="center">
-  An enhanced and improved e-commerce platform built with React, designed for a seamless shopping experience.
+  An enhanced and improved e-commerce platform from react course I took.
 </p>
 
 ## About The Project
 
-EcommerceShop is a comprehensive online shopping platform, refined and expanded from a coding course project. This project aims to provide users with an intuitive and enjoyable shopping experience, featuring modern design, efficient navigation, and seamless social media integration. Key features include:
+This project aims to provide users with an intuitive and enjoyable shopping experience, featuring modern design, efficient navigation, and social media integration. Key features include:
 
 - **Browse and Search Products:** Easily explore a wide range of products with advanced search capabilities.
 - **Add to Cart:** Simple and user-friendly process for adding items to your cart.
 - **Manage Cart:** Newly added functionality to delete items from the cart.
-- **Checkout Process:** Streamlined checkout process for a hassle-free purchase experience.
 - **Share on Social Media:** Easily share your favorite products on social media platforms.
-- **Improved Design:** Modern and responsive design to enhance user experience.
-
+- 
 <div align="center">
   <img src="./images/screenshot.png" alt="EcommerceShop Screenshot" width="800px" height="auto" />
 </div>
